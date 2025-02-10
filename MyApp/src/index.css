@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* Apply Poppins globally */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000; /* Assuming you are using a dark theme */
+  color: #fff;            /* For better contrast with dark background */
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+  font-size: x-large;
+}
+
+
+
+
+.border{
+  /* border: 2px solid; */
+  height:fit-content;
+}
+/* #root{
+  background-color: #000000; 
+} */
+
+.AllHooksContainer{
+  
+  background-color: #ffffff; 
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);  /* Two columns of equal width */
+  grid-template-rows: repeat(2, 1fr);     /* Two rows of equal height */
+  gap: 1%;                              /* Space between the squares */
+  height: 100vh;                          /* Full viewport height */
+  max-width: 100vw;                           /* Full viewport width */
+  padding: 4%;
+}
+
+.hook{
+  padding-top: 2%;
+  background-color:#00ffe5; 
+  border: 7px solid black;
+  /* border: 2px solid; */
+  border-radius: 2%;
+  text-align: center;
+  color:rgb(0, 0, 0);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.glow {
+  padding: 5px;
+  margin-bottom: 10px;
+  border:2px solid white;        /* Change to green when active */
+  transition: border 0.2s ease-in-out;  /* Smooth fade effect */
+}
+
+
+.useeffectstatesss{
+  display: flex;
+  /* border: 2px solid ; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+.span1{
+  padding: 5px;
+  border:2px solid;
+  width: fit-content;
+  margin-bottom: 10px;
+}
+.span2{
+  padding: 5px;
+  margin-bottom: 10px;
+  border:2px solid;
+  width: fit-content;
+}
+
+.span3{
+  padding: 5px;
+ border: 2px solid;
+}
+
+.useref{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.qwe{
+  width: 50%;
+}
+
+button{
+  padding: 3%;
+  border: 5px solid black;
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 6%;
+  margin-top: 10px;
+  width: 50%;
+
+}
+:hover button{
+  cursor: pointer;
+}
+
+input{
+  border-radius: 10%;
+  padding: 20px;
+  
+}
+
+h1{
+  background-color: #000;
+  color: #fff;
+}
+
+.userefhook{
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid green; */
+  height:fit-content;
+  margin-top: auto;
+  margin-bottom: auto;
+  
+}
+
+.a:hover{
+  cursor: pointer;
+  background-color: #fff;
+  transition:  background-color  0.2s ease-in-out;
+
+}
+.b:hover{
+  cursor: pointer;
+  background-color: #0cf7ff;
+  transition:  background-color  0.2s ease-in-out;
+
+}
+.c:hover{
+  cursor: pointer;
+  background-color: #fff;
+  transition:  background-color  0.2s ease-in-out;
+
+}
+.d:hover{
+  cursor: pointer;
+  background-color: #fff;
+  transition:  background-color  0.2s ease-in-out;
+
+}
