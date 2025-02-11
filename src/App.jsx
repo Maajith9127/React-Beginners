@@ -8,7 +8,7 @@ import Module1 from './Components/Module1.jsx';
 import UseRefHook from './Components/UseRefHook.jsx';
 import WithUseMemo from './Components/WithUseMemo.jsx';
 import WithoutUseMemo from './Components/WithoutUseMemo.jsx';
-import UseCallBackHook from './Components/UseCallBackHook.jsx';
+import WithUseCallback from './Components/WithUseCallBack.jsx';
 function App() {
   const [state1, setState1] = useState(0);
   const [state2, setState2] = useState(0);
@@ -56,7 +56,7 @@ function App() {
           <div className="hook d ">
             <span className='title'> UseCallBack Hook</span>
             <div className='userefhook x'>
-              <UseCallBackHook/>
+            <WithUseCallback/>
             </div >
           </div>
 
